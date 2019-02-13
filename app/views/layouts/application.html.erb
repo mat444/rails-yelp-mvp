@@ -12,6 +12,18 @@
   </head>
 
   <body>
+    <div class="navbar-wagon">
+
+      <!-- Right Navigation -->
+      <div class="navbar-wagon-right">
+
+        <!-- Links -->
+        <%= link_to "Restaurants list", restaurants_path, class: "navbar-wagon-item navbar-wagon-link" %>
+        <%= link_to "Create Restaurant", new_restaurant_path, class: "navbar-wagon-item navbar-wagon-link" %>
+      </div>
+
+
+    </div>
     <%= yield %>
   </body>
 </html>
